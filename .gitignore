@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 密钥与配置
+.env
+*.pem
+
+# 数据与模型（体积大的不要进仓库）
+data/raw/
+*.pkl
+*.pt
+*.h5
+
+# 编辑器与系统
+.idea/
+.vscode/
+.DS_Store
