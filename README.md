@@ -1,18 +1,31 @@
-# 项目名
+# git-practice
 
-一句话说明这个项目解决什么问题。
+Git 与 GitHub 工作流练习仓库，用来熟悉分支、提交、PR 与合并的完整流程。
 
 ## 快速开始
-环境要求、安装命令、运行命令，三步以内能跑起来。
+
+```bash
+git clone git@github.com:zhuguhe789-crypto/git-practice.git
+cd git-practice
+git lg
+```
 
 ## 项目结构
-目录树加一行注释，说明每个文件夹放什么。
+
+```text
+git-practice/
+├── README.md      # 项目说明
+└── .gitignore     # 忽略规则
+```
 
 ## 方法说明
-用了什么数据、什么方法、关键参数与取舍。
+
+按「建分支 → 小步提交 → 发 PR → 自查 → squash 合并」的流程推进。
 
 ## 结果
-结论、指标或截图，能自证效果。
+
+已完成首次提交与推送，分支与 PR 记录见提交历史。
 
 ## 参考
-数据来源、论文或参考链接。
+
+- Pro Git：https://git-scm.com/book/zh/v2
